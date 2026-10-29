@@ -1,0 +1,62 @@
+{
+  "slippery": false,
+  "rewards": {
+    "goal": 1.0,
+    "hole": -1.0,
+    "step": -0.01
+  },
+  "gamma": 0.99,
+  "maps": {
+    "4x4": {
+      "map_name": "4x4",
+      "max_steps": 100,
+      "n_episodes": 1000,
+      "eps_decay_episodes": 500
+    },
+    "8x8": {
+      "map_name": "8x8",
+      "max_steps": 200,
+      "n_episodes": 3000,
+      "eps_decay_episodes": 1500
+    }
+  },
+  "value_iteration": {
+    "theta": 1e-08,
+    "timing_repeats": 7
+  },
+  "td": {
+    "alpha": 0.1,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.01,
+    "q_init": 0.0
+  },
+  "evaluation": {
+    "eval_every": 50,
+    "eval_episodes": 1,
+    "test_episodes": 10,
+    "stable_k": 5,
+    "stable_tolerance": 5.0
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ]
+}

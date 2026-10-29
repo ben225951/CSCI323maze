@@ -1,0 +1,2 @@
+sweeps,state_updates,planning_time_s_median,planning_time_s_min,planning_time_s_max,timing_repeats,optimal_steps,success_rate
+15,795,0.001081167021766305,0.001058707945048809,0.0010856669396162033,7,14.0,100.0
